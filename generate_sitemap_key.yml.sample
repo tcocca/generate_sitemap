@@ -1,0 +1,16 @@
+#Fill here the Generate Sitemap configuration for your application
+#In this sample:
+#Domain - enter the appropriate domain name for each RAILS Environment
+#Changefreq - the changefreq to be used for every link in the sitemap
+
+domain:
+  development:
+     localhost:3000
+
+  test:
+     localhost:3000
+
+  production:
+     www.domain.com
+
+changefreq: daily
